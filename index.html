@@ -1,67 +1,227 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-        <meta charset="utf-8" />
-        <title>Kbrown developer</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Diario de Felipe</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+                <link rel="stylesheet" href="./static/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-</head>
+		<!-- Header -->
+			<div id="header">
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Kbrown developer </a></h1>
-                <nav><ul>
-                    <li><a href="/category/misc.html">misc</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+				<div class="top">
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/primero.html">Primero</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2015-10-17T06:52:00-07:00">
-                Published: Sat 17 October 2015
-        </abbr>
+					<!-- Logo -->
+						<div id="logo">
+                                                  <span class="image avatar48"><img src=/static/images/avatar.jpg alt="" /></span>
+                                                  <h1 id="title">Felipe</h1>
+							<p>Devop en PromoWeb</p>
+						</div>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/pon-k-brown.html">Pon K. Brown</a>
-        </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
 
-</footer><!-- /.post-info --><p>Este es mi primer post en las paginas de github. Estoy en camino de convertirme en un excelente programador, aun
-no soy excelente, nisiquiera soy bueno aun, apenas vamos empezando, aprendiendo a usar la herramientas que usan
-los developers leyendo manuales y practicando con pequenos scripts que me ayuden a seguir entendiendo y mejorando.</p>                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
+								Prologue's nav expects links in one of two formats:
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+								1. Hash link (scrolls to a different section within the page)
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+								2. Standard link (sends the user to another page/site)
 
-</body>
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+                                                          <li><a href="./#" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+                                                          <li><a href="./blog/" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Blog</span></a></li>
+                                                          <li><a href="./#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Sobre mi</span></a></li>
+                                                          <li><a href="./#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contacto</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="http://twitter.com/ponfelipon" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="http://facebook.com/foto.pon" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="http://github.com/ponkbrown" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="http://old.ponkbrown.com" class="icon fa-camera-retro"><span class="label">Dribbble</span></a></li>
+							<li><a href="mailto:pon.felipon@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+                          
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">¡Hola! Soy <strong>Felipe</strong>, un <a href="http://kbrown.xyz/">entusiasta</a> programador<br />
+								<a href="http://old.ponkbrown.com">fotógrafo</a> y muchas cosas mas..</h2>
+								<p>Estas son mis aventuras, pensamientos y sobre todo<br />
+								mi bitácora o libro de vida donde escribo lo que me ocurre o lo que pienso.</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Leer</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+                                <!--
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+							fusce hendrerit lacus ridiculus.</p>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+                                                                          <a href="#" class="image fit"><img src=/static/images/pic02.jpg alt="" /></a>
+										<header>
+											<h3>Ipsum Feugiat</h3>
+										</header>
+									</article>
+									<article class="item">
+                                                                          <a href="#" class="image fit"><img src=/static/images/pic03.jpg alt="" /></a>
+										<header>
+											<h3>Rhoncus Semper</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+                                                                          <a href="#" class="image fit"><img src=/static/images/pic04.jpg alt="" /></a>
+										<header>
+											<h3>Magna Nullam</h3>
+										</header>
+									</article>
+									<article class="item">
+                                                                          <a href="#" class="image fit"><img src=/static/images/pic05.jpg  alt="" /></a>
+										<header>
+											<h3>Natoque Vitae</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+                                                                          <a href="#" class="image fit"><img src=/static/images/pic06.jpg  alt="" /></a>
+										<header>
+											<h3>Dolor Penatibus</h3>
+										</header>
+									</article>
+									<article class="item">
+                                                                          <a href="#" class="image fit"><img src=/static/images/pic07.jpg  alt="" /></a>
+										<header>
+											<h3>Orci Convallis</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+                                -->
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Sobre mi</h2>
+							</header>
+
+                                                        <a href="#" class="image featured"><img src=/static/images/pic08.jpg  alt="" /></a>
+
+							<p> Esto es todo lo que hay que saber sobre mi, mido 1.75m peso como 80 kg tengo dos gatas, Milu y Coco. Duermo boca abajo
+                                                        y con pijama si hace frió. Soy de acuario, debo decir que soy de pocos amigos y de mis enemigos no se cuantos. Me llevo bien
+                                                        con mis hermanos, dos hermanas y un hermano. De la vida yo me río por que es corta y grata, no uso saco ni corbata y no me gusta
+                                                        el protocolo, estoy en buena compañía pero se cuidarme solo. Si tengo vergüenza me pongo color rojo, no profeso ningún credo, la 
+                                                        filantropía no esta entre mis aficiones, tengo algunas adicciones y me hago cargo, alcohólico no soy pero a veces me emborracho. Mi
+                                                        papá era músico pero ahora maneja un trailer y mi mamá se dedicaba a la casa y ahora hace costura. Nací a las 7 de la mañana, no 
+                                                        creo en ovnis ni en zombies y no colecciono nada. Y no traiciono mis principios por que eso es primero, y yo no puedo obtener todo
+                                                        lo que quiero aunque lo intento y todo esto me pasa por ser sincero. </p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contacto</h2>
+							</header>
+
+							<p>No hay comentarios en los posts nomas esta esta forma :(</p>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+
+                                        
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Todos los derechos reservados</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+                <script src=/static/js/jquery.min.js></script>
+                <script src=/static/js/jquery.scrolly.min.js></script>
+                <script src=/static/js/jquery.scrollzer.min.js></script>
+                <script src=/static/js/skel.min.js></script>
+                <script src=/static/js/util.js></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+                        <script src=/static/js/main.js></script>
+
+	</body>
 </html>
